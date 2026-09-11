@@ -30,22 +30,22 @@ const BRAND_THUMBNAIL = process.env.BRAND_THUMBNAIL || null;
 
 const CATEGORIES = {
   support: {
-    label: 'Support',
+    label: 'General Support',
     emoji: '🛠️',
     color: 0x5865f2,
     desc: 'Get help from our staff team.',
     style: ButtonStyle.Primary,
   },
   bug: {
-    label: 'Report a Bug',
-    emoji: '🐛',
+    label: 'Player Report',
+    emoji: '❗',
     color: 0xed4245,
     desc: 'Report bugs or problems.',
     style: ButtonStyle.Danger,
   },
   other: {
-    label: 'Other',
-    emoji: '📢',
+    label: 'Billing Support',
+    emoji: '💳',
     color: 0x99aab5,
     desc: 'Anything else you need help with.',
     style: ButtonStyle.Secondary,
