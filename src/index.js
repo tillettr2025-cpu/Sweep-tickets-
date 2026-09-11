@@ -40,14 +40,14 @@ const CATEGORIES = {
     label: 'Player Report',
     emoji: '❗',
     color: 0xed4245,
-    desc: 'Report bugs or problems.',
+    desc: 'Report a player.',
     style: ButtonStyle.Danger,
   },
   other: {
     label: 'Billing Support',
     emoji: '💳',
     color: 0x99aab5,
-    desc: 'Anything else you need help with.',
+    desc: 'Had a purchase issue.',
     style: ButtonStyle.Secondary,
   },
 };
