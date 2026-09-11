@@ -1,0 +1,14 @@
+{
+  "name": "SweepSMP-Tickets",
+  "version": "1.0.0",
+  "description": "SweepSMP dedicated Discord ticket bot",
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "dependencies": {
+    "discord.js": "^14.24.2",
+    "dotenv": "^17.2.1"
+  }
+}
